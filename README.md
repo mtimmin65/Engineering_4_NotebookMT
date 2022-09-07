@@ -18,7 +18,6 @@ Write your assignment description here. What is the purpose of this assignment? 
 
  ![Blinking](ezgif.com-gif-maker.gif) 
 
-
 ### Wiring
 
 This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
