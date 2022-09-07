@@ -16,7 +16,7 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Evidence 
 
- ![Blinking](ezgif.com-gif-maker.gif) 
+ ![Blinking](images/ezgif.com-gif-maker.gif) 
 
 ### Wiring
 
