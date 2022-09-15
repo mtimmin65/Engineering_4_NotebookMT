@@ -8,11 +8,11 @@
 
 &nbsp;
 
-## Countdown assingment
+## Launchpad 1
 
 ### Assignment Description
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Make serial countdown from 10 to 1 and read "Takeoff!"
 
 ### Evidence 
 
@@ -20,20 +20,20 @@ Write your assignment description here. What is the purpose of this assignment? 
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+No wiring
 
 ### Code
 Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+The most challenging part of this assingment for me was figuring out the for loop. At first I only had (10, 0) This countdown from 0-10. To do the oppisite and to complete the assingment I had to use "for (0, 10, -1) The -1 clarifies direction which allows the count DOWN.
 
-## Launchpad Part 1
+## Launchpad Part 2
 
 ### Make coutndown with pico
 
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+Have green led to blink every second of countdown and red to go off when countdown is finished.
 
 ### Evidence 
 
