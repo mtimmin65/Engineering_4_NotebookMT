@@ -37,17 +37,16 @@ Have green led to blink every second of countdown and red to go off when countdo
 
 ### Evidence 
 
- ![Blinking](images/ezgif.com-gif-maker.gif) 
+ ![Blinking](ezgif.com-gif-maker.mov) 
 
 ### Wiring
 
-No wiring
 
 ### Code
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+At first I had both legs of the led wired in the same row, which clearly wont work. I then put one leg in the coloumn with ground, and the other with a resitor, with the resistro connected to the desired pin with another wire. V
 
 &nbsp;
 
