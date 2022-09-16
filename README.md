@@ -18,7 +18,7 @@ Make serial countdown from 10 to 1 and read "Takeoff!"
 
  ![Blinking]() 
 
-![Countdown](images/your-image-name.png)  
+![Countdown](images/ezgif.com-gif-maker (1).gif)  
 
 
 
