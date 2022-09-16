@@ -16,7 +16,7 @@ Make serial countdown from 10 to 1 and read "Takeoff!"
 
 ### Evidence 
 
- ![Blinking](images/ezgif.com-gif-maker.gif) 
+ ![Blinking](images/IMG_5583 (1).MOV) 
 
 ### Wiring
 
