@@ -18,7 +18,7 @@ Make serial countdown from 10 to 1 and read "Takeoff!"
 
  
 
-![Countdown](images/download.jpg)  
+![Countdown](images/giphy.gif)  
 
 
 
