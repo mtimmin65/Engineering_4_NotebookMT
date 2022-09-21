@@ -66,7 +66,7 @@ Same parameters as previous two assignemnts, adding button to initialize coutndo
 
 ### Wiring
 
- ![button](images/button.HEIC)  
+ ![button](images/button.jpg)  
 
 ### Code
 
@@ -74,7 +74,7 @@ Same parameters as previous two assignemnts, adding button to initialize coutndo
 
 This assingment retaught me how to use a button. The previous LEDs were an output, whereas the button is an input. At first The button didnt work because I made the mistake of switcthing them, but then it worked.
 
-## Launchpad Part 3
+## Launchpad Part 4
 
 ### Assingment description
 
