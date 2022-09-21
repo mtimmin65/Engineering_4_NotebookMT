@@ -128,4 +128,4 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test GIF
 
- ![Blinking](images/giphy.gif)  
+  ![Blinking](images/giphy.gif)  
