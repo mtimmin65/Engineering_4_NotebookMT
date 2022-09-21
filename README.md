@@ -42,7 +42,7 @@ Have green led to blink every second of countdown and red to go off when countdo
 
 ### Evidence 
 
- ![Blinking](ezgif.com-gif-maker.mov) 
+ ![Countdown2](images/Countdown2.gif) 
 
 ### Wiring
 
