@@ -72,6 +72,25 @@ Same parameters as previous two assignemnts, adding button to initialize coutndo
 
 This assingment retaught me how to use a button. The previous LEDs were an output, whereas the button is an input. At first The button didnt work because I made the mistake of switcthing them, but then it worked.
 
+## Launchpad Part 3
+
+### Assingment description
+
+Have servo turn 180 degrees when button is pressed after the coundown.
+
+### Evidence 
+
+ ![Countdown4](images/Countdown4.gif) 
+
+### Wiring
+
+
+### Code
+
+### Reflection
+
+After troubleshooting, I still couldn't get servo to work, so I borrowed a classmates (Thanks Aidan) servo who had completed the assingment. The servo then worked. Another problem I had was not starting the servo at 0 degrees, use code ""
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
