@@ -46,7 +46,7 @@ Have green led to blink every second of countdown and red to go off when countdo
 
 ### Wiring
 
- ![led](images/led.HEIC)  
+ ![led](images/led.jpg)  
 
 ### Code
 
@@ -86,7 +86,7 @@ Have servo turn 180 degrees when button is pressed after the coundown.
 
 ### Wiring
 
- ![servo](images/servo.HEIC)  
+ ![servo](images/servo.jpg)  
 
 ### Code
 
