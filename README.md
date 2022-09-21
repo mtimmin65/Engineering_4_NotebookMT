@@ -46,7 +46,7 @@ Have green led to blink every second of countdown and red to go off when countdo
 
 ### Wiring
 
- ![led](images/led.jpg) =50x50
+ ![led](images/led.jpg) width="100" height="100">
 
 ### Code
 
