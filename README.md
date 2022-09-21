@@ -53,7 +53,7 @@ Have green led to blink every second of countdown and red to go off when countdo
 
 At first I had both legs of the led wired in the same row, which clearly wont work. I then put one leg in the coloumn with ground, and the other with a resitor, with the resistro connected to the desired pin with another wire. V
 
-&nbsp;
+
 
 ## Onshape_Assignment_Template
 
