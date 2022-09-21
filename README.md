@@ -36,7 +36,7 @@ The most challenging part of this assingment for me was figuring out the for loo
 
 ## Launchpad Part 2
 
-### Make coutndown with pico
+### Assingment description
 
 Have green led to blink every second of countdown and red to go off when countdown is finished.
 
@@ -53,7 +53,24 @@ Have green led to blink every second of countdown and red to go off when countdo
 
 At first I had both legs of the led wired in the same row, which clearly wont work. I then put one leg in the coloumn with ground, and the other with a resitor, with the resistro connected to the desired pin with another wire. V
 
+## Launchpad Part 3
 
+### Assingment description
+
+Same parameters as previous two assignemnts, adding button to initialize coutndown and blinking led.
+
+### Evidence 
+
+ ![Countdown2](images/Countdown2.gif) 
+
+### Wiring
+
+
+### Code
+
+### Reflection
+
+This assingment retaught me how to use a button. The previous LEDs were an output, whereas the button is an input. At first The button didnt work because I made the mistake of switcthing them, but then it worked.
 
 ## Onshape_Assignment_Template
 
