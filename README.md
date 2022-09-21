@@ -61,7 +61,7 @@ Same parameters as previous two assignemnts, adding button to initialize coutndo
 
 ### Evidence 
 
- ![Countdown2](images/Countdown2.gif) 
+ ![Countdown3](images/Countdown3.jif.gif) 
 
 ### Wiring
 
