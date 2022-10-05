@@ -94,6 +94,37 @@ Have servo turn 180 degrees when button is pressed after the coundown.
 
 After troubleshooting, I still couldn't get servo to work, so I borrowed a classmates (Thanks Aidan) servo who had completed the assingment. The servo then worked. Another problem I had was not starting the servo at 0 degrees, use code ""
 
+## Landing area 1 
+
+### Assingment description
+
+Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code spits out area. If invalid point is entered (d,3) code prints "Error, points are not a valid triangle"
+
+### Evidence 
+
+ ![Countdown4](images/Countdown4.gif) 
+
+### Wiring
+
+ ![servo](images/servo.jpg)  
+
+### Code
+
+### Reflection
+
+After troubleshooting, I still couldn't get servo to work, so I borrowed a classmates (Thanks Aidan) servo who had completed the assingment. The servo then worked. Another problem I had was not starting the servo at 0 degrees, use code ""
+
+
+
+
+
+
+
+
+
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
