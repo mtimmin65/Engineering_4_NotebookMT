@@ -102,7 +102,7 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 
 ### Evidence 
 
- ![Countdown4](images/Landingarea1.gif) 
+ ![landingwiring](images/Landingarea1.gif) 
 
 ### Wiring
 
@@ -127,6 +127,7 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 
 ### Wiring
 
+![Countdown4](images/Landingwiring.HEIC)
 
 ### Code
 
