@@ -102,7 +102,7 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 
 ### Evidence 
 
- ![Countdown4](images/Countdown4.gif) 
+ ![Countdown4](images/Landingarea1.gif) 
 
 ### Wiring
 
@@ -112,7 +112,8 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 
 ### Reflection
 
-After troubleshooting, I still couldn't get servo to work, so I borrowed a classmates (Thanks Aidan) servo who had completed the assingment. The servo then worked. Another problem I had was not starting the servo at 0 degrees, use code ""
+The hardest part of this assingment for me was converting the int to float. To use in equation variable x1,y1 etc have to be integers but for most else they have to be float. To convert to float its as simple as float(x1), to convert back to int in equation int()
+
 
 
 
