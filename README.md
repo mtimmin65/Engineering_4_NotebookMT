@@ -127,7 +127,7 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 
 ### Wiring
 
-![landingwiring](images/Landingwiring.HEIC)
+![landingwiring](images/Landingwiring.jpg)
 
 ### Code
 
