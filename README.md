@@ -127,7 +127,9 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 
 ### Wiring
 
-![landingwiring](images/Landingwiring.jpg)
+
+<img src="images/Landingwiring.jpg" alt="BlinkingBoard" width="450">
+
 
 ### Code
 
