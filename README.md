@@ -123,7 +123,7 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 
 ### Evidence 
 
- ![Countdown4](images/Landingarea2.gif) 
+<img src="images/Landingarea2.gif" alt="BlinkingBoard" width="450">
 
 ### Wiring
 
