@@ -83,7 +83,7 @@ Have servo turn 180 degrees when button is pressed after the coundown.
 ### Wiring
 
  
-<img src="images/servo.jpg width="450">
+<img src="images/servo.jpg alt="Blinkingboard" width="450">
 
 ### Code
 
@@ -99,8 +99,8 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 
 ### Evidence 
 
- ![landingwiring](images/Landingarea1.gif) 
-<img src="images/Landindarea1.gif width = "450">
+
+<img src="images/Landindarea1.gif alt="blink" width = "450">
 
 
 ### Wiring
