@@ -16,11 +16,7 @@ Make serial countdown from 10 to 1 and read "Takeoff!"
 
 ### Evidence 
 
- 
-
-![Countdown](images/countdown.gif)  
-
-
+<img src="images/countdown.gif" alt="BlinkingBoard" width="450">
 
 ### Wiring
 
@@ -42,11 +38,11 @@ Have green led to blink every second of countdown and red to go off when countdo
 
 ### Evidence 
 
- ![Countdown2](images/Countdown2.gif) 
+<img src="images/Countdown2.gif" alt="BlinkingBoard" width="450">
 
 ### Wiring
 
- ![led](images/led.jpg) width="100" height="100">
+<img src="images/led.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
 
@@ -62,11 +58,11 @@ Same parameters as previous two assignemnts, adding button to initialize coutndo
 
 ### Evidence 
 
- ![Countdown3](images/Countdown3.jif.gif) 
+<img src="images/Countdown3.jif.gif" alt="BlinkingBoard" width="450">
 
 ### Wiring
 
- ![button](images/button.jpg)  
+<img src="images/button.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
 
@@ -82,11 +78,12 @@ Have servo turn 180 degrees when button is pressed after the coundown.
 
 ### Evidence 
 
- ![Countdown4](images/Countdown4.gif) 
+<img src="images/Countdown4.gif" alt="BlinkingBoard" width="450">
 
 ### Wiring
 
- ![servo](images/servo.jpg)  
+ 
+<img src="images/servo.jpg width="450">
 
 ### Code
 
@@ -103,6 +100,8 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 ### Evidence 
 
  ![landingwiring](images/Landingarea1.gif) 
+<img src="images/Landindarea1.gif width = "450">
+
 
 ### Wiring
 
