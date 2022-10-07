@@ -98,12 +98,11 @@ Using an accleratmatoer, print the x, y, and z values on the serial monitor.
 ### Evidence 
 
 
-<img src="images/Landingarea1.gif" alt="BlinkingBoard" width="450">
+<img src="images/Crash1.gif" alt="BlinkingBoard" width="450">
 
 
 ### Wiring
 
-No wiring
 
 ### Code
 
@@ -111,8 +110,47 @@ No wiring
 
 The code for this assingment is simple, but the wiring could be tricky. At first I switched SDA and SCL pin, and my code didnt work, then I switched them and it did. 
 
+## Crash Avoidance 1
 
-After troubleshooting, I still couldn't get servo to work, so I borrowed a classmates (Thanks Aidan) servo who had completed the assingment. The servo then worked. Another problem I had was not starting the servo at 0 degrees, use code ""
+### Assingment description
+
+Using an accleratmatoer, print the x, y, and z values on the serial monitor.
+
+### Evidence 
+
+
+<img src="images/Crash1.gif" alt="BlinkingBoard" width="450">
+
+
+### Wiring
+
+
+### Code
+
+### Reflection
+
+The code for this assingment is simple, but the wiring could be tricky. At first I switched SDA and SCL pin, and my code didnt work, then I switched them and it did. 
+
+## Crash Avoidance 2
+
+### Assingment description
+
+Using an accleratmatoer, print the x, y, and z values on the serial monitor. When acceleramtor is turned 90 degrees to either side, light up led
+
+### Evidence 
+
+
+<img src="images/Crash2.gif" alt="BlinkingBoard" width="450">
+
+
+### Wiring
+
+
+### Code
+
+### Reflection
+
+At first the mobile power source I was using didnt seem to work. This was because I had written my code in a file Crash2.py. and I hadn't uplaoaded it to code.oy file. Once I did this the mobile power source worked.
 
 ## Landing area 1 
 
