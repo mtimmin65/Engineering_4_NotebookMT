@@ -100,7 +100,7 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 ### Evidence 
 
 
-<img src="images/Landindarea1.gif alt="blink" width = "450">
+<img src="images/Landingarea1.gif" alt="BlinkingBoard" width="450">
 
 
 ### Wiring
