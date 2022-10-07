@@ -89,6 +89,29 @@ Have servo turn 180 degrees when button is pressed after the coundown.
 
 ### Reflection
 
+## Crash Avoidance 1
+
+### Assingment description
+
+Using an accleratmatoer, print the x, y, and z values on the serial monitor.
+
+### Evidence 
+
+
+<img src="images/Landingarea1.gif" alt="BlinkingBoard" width="450">
+
+
+### Wiring
+
+No wiring
+
+### Code
+
+### Reflection
+
+The code for this assingment is simple, but the wiring could be tricky. At first I switched SDA and SCL pin, and my code didnt work, then I switched them and it did. 
+
+
 After troubleshooting, I still couldn't get servo to work, so I borrowed a classmates (Thanks Aidan) servo who had completed the assingment. The servo then worked. Another problem I had was not starting the servo at 0 degrees, use code ""
 
 ## Landing area 1 
