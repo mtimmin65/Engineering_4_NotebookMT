@@ -83,7 +83,7 @@ Have servo turn 180 degrees when button is pressed after the coundown.
 ### Wiring
 
  
-<img src="images/servo.jpg alt="Blinkingboard" width="450">
+<img src="images/servo.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
 
