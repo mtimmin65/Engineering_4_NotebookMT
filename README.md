@@ -198,6 +198,28 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 To print the triangles for this assingment you couldnt just input 'triangle = Triangle(int(x1), int(y1), int(x2), int(y2), int(x3), int(y3))'
 as this would print the trirangle on the wrong part of the graph. Since the OLED is 128 by 64, to get the tirangle to plot with respect to the origin (64,32) you have to add 64 to each x value (int(x1) + 64) and subtract each y value from 32 (32 - int(y1).
 
+## Morse code 1
+
+### Assingment description
+
+Script asks for input from user, user gives letter or number input, script returns input in morse code with / represeting space.
+
+### Evidence 
+
+<img src="images/Landingarea2.gif" alt="BlinkingBoard" width="450">
+
+### Wiring
+
+
+<img src="images/Landingwiring.jpg" alt="BlinkingBoard" width="450">
+
+
+### Code
+
+
+### Reflection
+
+At first I didn't know how to have "/" return from a space input. To fix this I added it to the dictionary which turned the letter into morse code originally. ' (':'/',) 
 
 
 
