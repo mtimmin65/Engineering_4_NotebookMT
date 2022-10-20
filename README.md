@@ -219,7 +219,7 @@ import board
 
 while True:
   
-  python '''
+  ''' python 
   
   print("Enter Morse Code Message, or enter -q to quit")
   MORSE_CODE = { 'A':'.-', 'B':'-...',
