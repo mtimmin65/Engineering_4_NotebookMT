@@ -270,8 +270,17 @@ Script asks for input from user, user gives letter or number input, script retur
   
 ``` python
   
-  print("Enter Morse Code Message, or enter -q to quit") ##  Initial message that will be printed
-  MORSE_CODE = { 'A':'.-', 'B':'-...',      ## start of dictionary
+  modifier = 0.25 ## modifier for eacc break between dots, dash, etc etc
+dot_time = 1*modifier
+dash_time = 3*modifier
+between_taps = 1*modifier
+between_letters = 3*modifier
+between_words = 7*modifier
+
+while True:
+  
+  print("Enter Morse Code Message, or enter -q to quit") ## same dictionary
+  MORSE_CODE = { 'A':'.-', 'B':'-...',
   'C':'-.-.', 'D':'-..', 'E':'.',
   'F':'..-.', 'G':'--.', 'H':'....',
   'I':'..', 'J':'.---', 'K':'-.-',
@@ -285,25 +294,42 @@ Script asks for input from user, user gives letter or number input, script retur
   '7':'--...', '8':'---..', '9':'----.',
   '0':'-----', ', ':'--..--', '.':'.-.-.-',
   '?':'..--..', '/':'-..-.', '-':'-....-',
-  '(':'-.--.', ')':'-.--.-', ' ':'/',} ## Added ':'/', for space
+  '(':'-.--.', ')':'-.--.-', ' ':'/',}
 
   message = input("") 
-  message = message.upper()  ## Turns input of lower cas letter to uppercase
+  message = message.upper()  ## turn lowercase letter to uppercase 
 
   message1 = " " 
 
-  for letter in message: ## input to morse code
-    message1 = message1 + (MORSE_CODE[letter]) + " " ## final message = morsecode letter, allows letters to space 
+  for letter in message: 
+    message1 = message1 + (MORSE_CODE[letter]) + " " 
 
-  print(message1) 
+  print(message1)
   
+
+  for character in message1: #loop thru morse message
+    if character == ("."): ## If dot, then print dot_time break, then turn led off 
+      led.value = True
+      time.sleep(dot_time)
+      led.value = False
+    if character == ("-"): ## Repeat for each charectar
+      led.value = True
+      time.sleep(dash_time)
+      led.value = False
+    if character == (""):
+      led.value = True
+      time.sleep(between_letters)
+      led.value = False
+    if character == ("/"):
+      led.value = True
+      time.sleep(between_words)
+      led.value = False
+    time.sleep(between_taps) ## Sleep between charectars
   ```
   
 ### Reflection
 
-The main part of this assingment that I had never seen was the dictionary. The dictionary is what allows each individual letter to be turned into morse code. 
-At first I didn't know how to have "/" return from a space input. To fix this I added it to the dictionary which turned the letter into morse code originally. ' (''/',)  To do this it was as simple as saying what the input would be " " and saying what I wanted the output to be '/'.
-
+At first I didn't know how to incorparate the (dot_time) into the led blink. Instead of the led being on for (dot_time) etc, have time.sleep(dot_time) etc for each value. I also didn't realize what (Between_taps) was at first, unlike the other time.sleep, this does not need an if statement, as it is to have a time.sleep between every charetar read.
 
 
 
