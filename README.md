@@ -251,7 +251,57 @@ The main part of this assingment that I had never seen was the dictionary. The d
 At first I didn't know how to have "/" return from a space input. To fix this I added it to the dictionary which turned the letter into morse code originally. ' (''/',)  To do this it was as simple as saying what the input would be " " and saying what I wanted the output to be '/'.
 
 
+## Morse code 2
 
+### Assingment description
+
+Script asks for input from user, user gives letter or number input, script returns input in morse code with / represeting space. Can input lower case or upper case letters and code turn into upper case. Additionally, morse code message is blinked through led.
+
+### Evidence 
+
+<img src="images/Morse2.gif" alt="BlinkingBoard" width="450">
+
+### Wiring
+
+No wiring
+
+### Code
+  
+``` python
+  
+  print("Enter Morse Code Message, or enter -q to quit") ##  Initial message that will be printed
+  MORSE_CODE = { 'A':'.-', 'B':'-...',      ## start of dictionary
+  'C':'-.-.', 'D':'-..', 'E':'.',
+  'F':'..-.', 'G':'--.', 'H':'....',
+  'I':'..', 'J':'.---', 'K':'-.-',
+  'L':'.-..', 'M':'--', 'N':'-.',
+  'O':'---', 'P':'.--.', 'Q':'--.-',
+  'R':'.-.', 'S':'...', 'T':'-',
+  'U':'..-', 'V':'...-', 'W':'.--',
+  'X':'-..-', 'Y':'-.--', 'Z':'--..',
+  '1':'.----', '2':'..---', '3':'...--',
+  '4':'....-', '5':'.....', '6':'-....',
+  '7':'--...', '8':'---..', '9':'----.',
+  '0':'-----', ', ':'--..--', '.':'.-.-.-',
+  '?':'..--..', '/':'-..-.', '-':'-....-',
+  '(':'-.--.', ')':'-.--.-', ' ':'/',} ## Added ':'/', for space
+
+  message = input("") 
+  message = message.upper()  ## Turns input of lower cas letter to uppercase
+
+  message1 = " " 
+
+  for letter in message: ## input to morse code
+    message1 = message1 + (MORSE_CODE[letter]) + " " ## final message = morsecode letter, allows letters to space 
+
+  print(message1) 
+  
+  ```
+  
+### Reflection
+
+The main part of this assingment that I had never seen was the dictionary. The dictionary is what allows each individual letter to be turned into morse code. 
+At first I didn't know how to have "/" return from a space input. To fix this I added it to the dictionary which turned the letter into morse code originally. ' (''/',)  To do this it was as simple as saying what the input would be " " and saying what I wanted the output to be '/'.
 
 
 
