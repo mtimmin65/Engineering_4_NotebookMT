@@ -216,12 +216,39 @@ No wiring
 
 import board
 
-'
-  
+
 while True:
   
-[Hyperlink text](raspberry-pi/Morse1.py)
+  python '''
+  
+  print("Enter Morse Code Message, or enter -q to quit")
+  MORSE_CODE = { 'A':'.-', 'B':'-...',
+  'C':'-.-.', 'D':'-..', 'E':'.',
+  'F':'..-.', 'G':'--.', 'H':'....',
+  'I':'..', 'J':'.---', 'K':'-.-',
+  'L':'.-..', 'M':'--', 'N':'-.',
+  'O':'---', 'P':'.--.', 'Q':'--.-',
+  'R':'.-.', 'S':'...', 'T':'-',
+  'U':'..-', 'V':'...-', 'W':'.--',
+  'X':'-..-', 'Y':'-.--', 'Z':'--..',
+  '1':'.----', '2':'..---', '3':'...--',
+  '4':'....-', '5':'.....', '6':'-....',
+  '7':'--...', '8':'---..', '9':'----.',
+  '0':'-----', ', ':'--..--', '.':'.-.-.-',
+  '?':'..--..', '/':'-..-.', '-':'-....-',
+  '(':'-.--.', ')':'-.--.-', ' ':'/',}
 
+  message = input("") 
+  message = message.upper() 
+
+  message1 = " " 
+
+  for letter in message: 
+    message1 = message1 + (MORSE_CODE[letter]) + " " 
+
+  print(message1) 
+  
+  '''
   
 ### Reflection
 
