@@ -216,7 +216,7 @@ No wiring
 
 import board
 
-
+'
   
 while True:
   
@@ -245,7 +245,8 @@ while True:
   for letter in message: 
     message1 = message1 + (MORSE_CODE[letter]) + " " 
 
-  print(message1)
+  print(message1) 
+  '
   
 ### Reflection
 
