@@ -263,7 +263,8 @@ Script asks for input from user, user gives letter or number input, script retur
 
 ### Wiring
 
-No wiring
+<img src="images/Morse2.jpg" alt="BlinkingBoard" width="450">
+
 
 ### Code
   
