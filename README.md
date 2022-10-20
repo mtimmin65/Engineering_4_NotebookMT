@@ -213,16 +213,11 @@ Script asks for input from user, user gives letter or number input, script retur
 No wiring
 
 ### Code
-
-import board
-
-
-while True:
   
 ``` python
   
-  print("Enter Morse Code Message, or enter -q to quit")
-  MORSE_CODE = { 'A':'.-', 'B':'-...',
+  print("Enter Morse Code Message, or enter -q to quit") ##  Initial message that will be printed
+  MORSE_CODE = { 'A':'.-', 'B':'-...',      ## start of dictionary
   'C':'-.-.', 'D':'-..', 'E':'.',
   'F':'..-.', 'G':'--.', 'H':'....',
   'I':'..', 'J':'.---', 'K':'-.-',
@@ -236,15 +231,15 @@ while True:
   '7':'--...', '8':'---..', '9':'----.',
   '0':'-----', ', ':'--..--', '.':'.-.-.-',
   '?':'..--..', '/':'-..-.', '-':'-....-',
-  '(':'-.--.', ')':'-.--.-', ' ':'/',}
+  '(':'-.--.', ')':'-.--.-', ' ':'/',} ## Added ':'/', for space
 
   message = input("") 
-  message = message.upper() 
+  message = message.upper()  ## Turns input of lower cas letter to uppercase
 
   message1 = " " 
 
-  for letter in message: 
-    message1 = message1 + (MORSE_CODE[letter]) + " " 
+  for letter in message: ## input to morse code
+    message1 = message1 + (MORSE_CODE[letter]) + " " ## final message = morsecode letter, allows letters to space 
 
   print(message1) 
   
