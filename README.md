@@ -202,24 +202,23 @@ as this would print the trirangle on the wrong part of the graph. Since the OLED
 
 ### Assingment description
 
-Script asks for input from user, user gives letter or number input, script returns input in morse code with / represeting space.
+Script asks for input from user, user gives letter or number input, script returns input in morse code with / represeting space. Can input lower case or upper case letters and code turn into upper case.
 
 ### Evidence 
 
-<img src="images/Landingarea2.gif" alt="BlinkingBoard" width="450">
+<img src="images/Morse1.gif" alt="BlinkingBoard" width="450">
 
 ### Wiring
 
-
-<img src="images/Landingwiring.jpg" alt="BlinkingBoard" width="450">
-
+No wiring
 
 ### Code
 
 
 ### Reflection
 
-At first I didn't know how to have "/" return from a space input. To fix this I added it to the dictionary which turned the letter into morse code originally. ' (':'/',) 
+The main part of this assingment that I had never seen was the dictionary. The dictionary is what allows each individual letter to be turned into morse code. 
+At first I didn't know how to have "/" return from a space input. To fix this I added it to the dictionary which turned the letter into morse code originally. ' (''/',)  To do this it was as simple as saying what the input would be " " and saying what I wanted the output to be '/'.
 
 
 
