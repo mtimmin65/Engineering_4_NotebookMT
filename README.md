@@ -24,7 +24,13 @@ Make serial countdown from 10 to 1 and read "Takeoff!"
 No wiring
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+``` python
+import time
+for x in range (10,0,-1):  #Range from 10,0 count down -1 each second
+    print(x)
+    time.sleep (1)  # Second between each number
+print("Takeoff!")   # print this at 0
+``` 
 
 ### Reflection
 
@@ -169,20 +175,19 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 No wiring
 
 ### Code
-
-def area(x1,y1,x2,y2,x3,y3):
-    float(x1)
+``` python
+def area(x1,y1,x2,y2,x3,y3): # Def all variables
+    float(x1) # Turn from float to int
     float(y1)
     float(x2)
     float(y2)
     float(x3)
     float(y3)
-    a1 = int(1/2*(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)))
+    a1 = int(1/2*(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))) # Formula for area from 3 points of triangle 
     area = abs(a1)
     return area
 
 while True: 
-``` python
     try:
         print('Enter x1,y1') # ask for first input, 
         x1y1 = input()
