@@ -192,6 +192,60 @@ Code asked user to inpput 3 point (x1,y1) etc, when 3 points are entered, code s
 
 
 ### Code
+``` python
+
+
+def area(x1,y1,x2,y2,x3,y3): # all variables
+    float(x1) # turn all variables from int to float
+    float(y1)
+    float(x2)
+    float(y2)
+    float(x3)
+    float(y3)
+    a1 = int(1/2*(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))) # formula for area of triangle from 3 points
+    area = abs(a1) # absolute value of found area
+    return area
+
+while True: 
+
+    try:
+        print('Enter x1,y1') # ask for first input
+        x1y1 = input()
+        xlist = x1y1.split(",")
+        x1=float(xlist[0])
+        y1=float(xlist[1]) # Create list, spilt x1 and y1, repeat for all variables
+        print('Enter x2,y2')
+        x2y2 = input() 
+        x2list = x2y2.split(",")
+        x2=float(x2list[0])
+        y2=float(x2list[1])
+        print('Enter x3,y3')
+        x3y3 = input()
+        x3list = x3y3.split(",")
+        x3=float(x3list[0])
+        y3=float(x3list[1])
+
+        splash = displayio.Group()  #create the display group
+        hline = Line(0,32,128,32, color=0xFFFF00,) # create lines of triangle
+        splash.append(hline) 
+        h2line = Line (64,0,64,64, color=0xFFFF00,)
+        splash.append(h2line)
+        circle3 = Circle(64,32,1, outline=0xFFFF00) # circle at origin
+        splash.append(circle3)
+        triangle = Triangle(int(x1) + 64, 32 - int(y1), 64 + int(x2), 32 - int(y2), 64 + int(x3), 32 - int(y3), outline=0xFFFF00) # Create triangle
+        splash.append(triangle) 
+
+       
+        display.show(splash)
+
+        
+    except: 
+        print("Error, points are not a valid triangle")
+
+    else:
+        print(area(x1,y1,x2,y2,x3,y3))   # print asnwer to formula (area)
+     
+ ```
 
 ### Reflection
 
