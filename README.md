@@ -77,7 +77,7 @@ while True:
 
 At first I had both legs of the led wired in the same row, which clearly wont work. I then put one leg in the coloumn with ground, and the other with a resitor, with the resistro connected to the desired pin with another wire. The other part was getting the time.sleep corrrect, instead of on time.sleep(1), I have 2 time.sleep(0.5) which works better. 
 
-## Launchpad Part 3
+## Countdown Part 3
 
 ### Assingment description
 
@@ -92,10 +92,35 @@ Same parameters as previous two assignemnts, adding button to initialize coutndo
 <img src="images/button.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
+``` python
+import time 
+import board
+import digitalio
 
+GreenLed = digitalio.DigitalInOut(board.GP13)  
+GreenLed.direction = digitalio.Direction.OUTPUT
+RedLed = digitalio.DigitalInOut(board.GP18)
+RedLed.direction = digitalio.Direction.OUTPUT
+button = digitalio.DigitalInOut(board.GP16) 
+button.direction = digitalio.Direction.INPUT # Leds are output, Button is an Input
+button.pull = digitalio.Pull.UP 
+
+while True: 
+     if button.value == False: # Button initializes code
+          for x in range (10,0,-1):  
+    GreenLed.value = True #Turns led on intially
+    time.sleep(0.5) # sleep half second
+    print(x) # continues  countdown
+    led1.value = False #turns led off
+    time.sleep(0.5) # sleep other half second
+     while True:
+         print("Takeoff!") 
+         RedLed.value = True #Red Led turns on at end of countdown
+         time.sleep(0.5) # Led turns off
+``` 
 ### Reflection
 
-This assingment retaught me how to use a button. The previous LEDs were an output, whereas the button is an input. At first The button didnt work because I made the mistake of switcthing them, but then it worked.
+This assingment retaught me how to use a button. The previous LEDs were an output, whereas the button is an input. At first The button didnt work because I made the mistake of switcthing them, but then it worked. button.value == False instead of true to be pressed and initalize code with digitalio.Pull.UP
 
 ## Launchpad Part 4
 
