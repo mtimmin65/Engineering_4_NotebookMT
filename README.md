@@ -8,7 +8,7 @@
 
 &nbsp;
 
-## Launchpad 1
+## Countdown 1
 
 ### Assignment Description
 
@@ -36,7 +36,7 @@ print("Takeoff!")   # print this at 0
 
 The most challenging part of this assingment for me was figuring out the for loop. At first I only had (10, 0) This countdown from 0-10. To do the oppisite and to complete the assingment I had to use "for (0, 10, -1) The -1 clarifies direction which allows the count DOWN.
 
-## Launchpad Part 2
+## Countdown Part 2
 
 ### Assingment description
 
@@ -51,10 +51,31 @@ Have green led to blink every second of countdown and red to go off when countdo
 <img src="images/led.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
+``` python
+import time 
+import board
+import digitalio 
+
+GreenLed = digitalio.DigitalInOut(board.GP13)
+GreenLed.direction = digitalio.Direction.OUTPUT 
+RedLed = digitalio.DigitalInOut(board.GP18) 
+RedLed.direction = digitalio.Direction.OUTPUT 
+
+for x in range (10,0,-1):  
+    GreenLed.value = True #Turns led on intially
+    time.sleep(0.5) # sleep half second
+    print(x) # continues  countdown
+    led1.value = False #turns led off
+    time.sleep(0.5) # sleep other half second
+while True:
+    print("Takeoff!") 
+    RedLed.value = True #Red Led turns on at end of countdown
+    time.sleep(0.5) # Led turns off
+ ``` 
 
 ### Reflection
 
-At first I had both legs of the led wired in the same row, which clearly wont work. I then put one leg in the coloumn with ground, and the other with a resitor, with the resistro connected to the desired pin with another wire. V
+At first I had both legs of the led wired in the same row, which clearly wont work. I then put one leg in the coloumn with ground, and the other with a resitor, with the resistro connected to the desired pin with another wire. The other part was getting the time.sleep corrrect, instead of on time.sleep(1), I have 2 time.sleep(0.5) which works better. 
 
 ## Launchpad Part 3
 
