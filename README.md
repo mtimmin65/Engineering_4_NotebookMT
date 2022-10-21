@@ -170,6 +170,44 @@ No wiring
 
 ### Code
 
+def area(x1,y1,x2,y2,x3,y3):
+    float(x1)
+    float(y1)
+    float(x2)
+    float(y2)
+    float(x3)
+    float(y3)
+    a1 = int(1/2*(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)))
+    area = abs(a1)
+    return area
+
+while True: 
+``` python
+    try:
+        print('Enter x1,y1') # ask for first input, 
+        x1y1 = input()
+        xlist = x1y1.split(",") #create list split vairables, repeat for each variable
+        x1=float(xlist[0])
+        y1=float(xlist[1])
+        print('Enter x2,y2')
+        x2y2 = input() 
+        x2list = x2y2.split(",")
+        x2=float(x2list[0])
+        y2=float(x2list[1])
+        print('Enter x3,y3')
+        x3y3 = input()
+        x3list = x3y3.split(",")
+        x3=float(x3list[0])
+        y3=float(x3list[1])
+
+        
+    except:  
+        print("Error, points are not a valid triangle") #If input not a number
+
+    else:
+        print(area(x1,y1,x2,y2,x3,y3)) # print asnwer to formula   
+``` 
+
 ### Reflection
 
 The hardest part of this assingment for me was converting the int to float. To use in equation variable x1,y1 etc have to be integers but for most else they have to be float. To convert to float its as simple as float(x1), to convert back to int in equation int()
