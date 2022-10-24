@@ -83,8 +83,7 @@ At first I had both legs of the led wired in the same row, which clearly wont wo
 
 ### Assingment description
 
-Same parameters as previous two assignemnts, adding button to initialize coutndown and blinking led.
-
+Have green led to blink every second of countdown and red to go off when countdown is finished.
 ### Evidence 
 
 <img src="images/Countdown3.jif.gif" alt="BlinkingBoard" width="450">
@@ -124,24 +123,27 @@ while True:
 
 This assingment retaught me how to use a button. The previous LEDs were an output, whereas the button is an input. At first The button didnt work because I made the mistake of switcthing them, but then it worked. button.value == False instead of true to be pressed and initalize code with digitalio.Pull.UP
 
-## Launchpad Part 4
+##  Countdown part 4
 
 ### Assingment description
 
-Have servo turn 180 degrees when button is pressed after the coundown.
+Have green led to blink every second of countdown and red to go off when countdown is finished, also have servo turn 180 degress when countdown is finsihed.
 
 ### Evidence 
 
 <img src="images/Countdown4.gif" alt="BlinkingBoard" width="450">
 
 ### Wiring
-
  
 <img src="images/servo.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
 
 ### Reflection
+
+
+
+
 
 ## Crash Avoidance 1
 
