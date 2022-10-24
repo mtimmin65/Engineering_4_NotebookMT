@@ -11,22 +11,24 @@ led2.direction = digitalio.Direction.OUTPUT
 button = digitalio.DigitalInOut(board.GP16)  
 button.direction = digitalio.Direction.INPUT
 button.pull = digitalio.Pull.UP
-pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50)  
-servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
+pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50)  # set up servo
+servo = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
 
 servo1.angle = 0
 
-
-while True: 
-     if button.value == False:    # After button is pressed
-          for x in reversed(range(11)):
-               led1.value = True
-               time.sleep(0.5)     
-               print(x)
-               led1.value = False
-               time.sleep(0.5)
-          while True:
-               print("liftoff!")     #say liftoff
-               led2.value = True
-               servo1.angle = 180     #turn180
-               time.sleep(0.5)
+     if button.value == False: # Button initializes code
+     for x in range (10,0,-1):  
+     GreenLed.value = True #Turns led on intially
+     time.sleep(0.5) # sleep half second
+     print(x) # continues  countdown
+     led1.value = False #turns led off
+     time.sleep(0.5) # sleep other half second
+     while True:
+     print("Takeoff!") 
+     RedLed.value = True #Red Led turns on at end of countdown
+     time.sleep(0.5) # Led turns off
+     while True:
+          print("liftoff!")     #say liftoff
+          led2.value = True
+          servo.angle = 180  #Turn Servo from 0 degrees to 180
+          time.sleep(0.5)
