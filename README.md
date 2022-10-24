@@ -140,10 +140,32 @@ Have green led to blink every second of countdown and red to go off when countdo
 ### Code
 
 ``` python
-``` python
+
+servo.angle = 0
+
+     if button.value == False: # Button initializes code
+     for x in range (10,0,-1):  
+     GreenLed.value = True #Turns led on intially
+     time.sleep(0.5) # sleep half second
+     print(x) # continues  countdown
+     led1.value = False #turns led off
+     time.sleep(0.5) # sleep other half second
+     while True:
+     print("Takeoff!") 
+     RedLed.value = True #Red Led turns on at end of countdown
+     time.sleep(0.5) # Led turns off
+     while True:
+          print("liftoff!")     #say liftoff
+          led2.value = True
+          servo.angle = 180  #Turn Servo from 0 degrees to 180
+          time.sleep(0.5)
+
+``` 
 
 
 ### Reflection
+
+The code to initialize the servo was given and pretty simple. One part was setting the servo to start at 0 degrees, servo.angle = 0, if you dont do this, the code     servo.angle = 180  #Turn Servo from 0 degrees to 180 wil not work. The servo without this code starts at 180 degrees.
 
 
 
