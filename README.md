@@ -171,26 +171,7 @@ The code to initialize the servo was given and pretty simple. One part was setti
 
 
 
-## Crash Avoidance 1
 
-### Assingment description
-
-Using an accleratmatoer, print the x, y, and z values on the serial monitor.
-
-### Evidence 
-
-
-<img src="images/Crash1.gif" alt="BlinkingBoard" width="450">
-
-
-### Wiring
-
-
-### Code
-
-### Reflection
-
-The code for this assingment is simple, but the wiring could be tricky. At first I switched SDA and SCL pin, and my code didnt work, then I switched them and it did. 
 
 ## Crash Avoidance 1
 
@@ -206,6 +187,7 @@ Using an accleratmatoer, print the x, y, and z values on the serial monitor.
 
 ### Wiring
 
+<img src="images/Crash1.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
 
@@ -227,6 +209,7 @@ Using an accleratmatoer, print the x, y, and z values on the serial monitor. Whe
 
 ### Wiring
 
+<img src="images/Crash1.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
 
