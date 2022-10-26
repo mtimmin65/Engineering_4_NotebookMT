@@ -190,7 +190,25 @@ Using an accleratmatoer, print the x, y, and z values on the serial monitor.
 <img src="images/Crash1.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
+``` python
+import board 
+import adafruit_mpu6050
+import busio 
+import time
+import digitalio 
 
+led = digitalio.DigitalInOut(board.GP1) 
+led.direction = digitalio.Direction.OUTPUT
+sda_pin = board.GP16  # Accelermatoer 
+scl_pin = board.GP17
+i2c = busio.I2C(scl_pin, sda_pin)
+mpu = adafruit_mpu6050.MPU6050(i2c)
+
+
+while True:
+    print(mpu.acceleration)   # print x y and z values
+    time.sleep(.5)
+``` 
 ### Reflection
 
 The code for this assingment is simple, but the wiring could be tricky. At first I switched SDA and SCL pin, and my code didnt work, then I switched them and it did. 
