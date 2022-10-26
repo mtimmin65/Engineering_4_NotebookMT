@@ -211,7 +211,7 @@ while True:
 ``` 
 ### Reflection
 
-The code for this assingment is simple, but the wiring could be tricky. At first I switched SDA and SCL pin, and my code didnt work, then I switched them and it did. 
+The code for this assingment is simple, but the wiring could be tricky. At first I switched SDA and SCL pin, and my code didnt work, then I switched them and it did. Other than the imports and the varaible stuff the only code you need is print(mpu.acceleration).
 
 ## Crash Avoidance 2
 
