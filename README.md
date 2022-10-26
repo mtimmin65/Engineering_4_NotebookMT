@@ -197,8 +197,7 @@ import busio
 import time
 import digitalio 
 
-led = digitalio.DigitalInOut(board.GP1) 
-led.direction = digitalio.Direction.OUTPUT
+
 sda_pin = board.GP16  # Accelermatoer 
 scl_pin = board.GP17
 i2c = busio.I2C(scl_pin, sda_pin)
@@ -257,7 +256,7 @@ while True:
 
 ### Reflection
 
-At first the mobile power source I was using didnt seem to work. This was because I had written my code in a file Crash2.py. and I hadn't uplaoaded it to code.oy file. Once I did this the mobile power source worked.
+At first the mobile power source I was using didnt seem to work. This was because I had written my code in a file Crash2.py. and I hadn't uplaoaded it to code.oy file. Once I did this the mobile power source worked. Other than that the only change in code was having led turn on when the accerleramoter was turned 90 degrees which can be done if mpu.acceleration[0] < -9 or mpu.acceleration[0] > 9. If x value was less than -9 or greater than 9 it was at 90 degrees.
 
 ## Landing area 1 
 
