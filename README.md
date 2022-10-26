@@ -4,12 +4,12 @@
 
 ## Table of Contents
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
-* [Countdown 1](#Countdown 1)
+* [Countdown 1](#Countdown_1)
 * [Countdown 2](#Countdown_2)
 * [Countdown 3](#Countdown_3)
 * [Countdown 4](#Countdown_4)
 
-## Countdown 1
+## Countdown_1
 
 ### Assignment Description
 
