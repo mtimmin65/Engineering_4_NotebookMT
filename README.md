@@ -230,6 +230,30 @@ Using an accleratmatoer, print the x, y, and z values on the serial monitor. Whe
 <img src="images/Crash1.jpg" alt="BlinkingBoard" width="450">
 
 ### Code
+``` python
+import board 
+import adafruit_mpu6050
+import busio 
+import time
+import digitalio 
+
+led = digitalio.DigitalInOut(board.GP1) 
+led.direction = digitalio.Direction.OUTPUT
+sda_pin = board.GP16  # Accelermatoer 
+scl_pin = board.GP17
+i2c = busio.I2C(scl_pin, sda_pin)
+mpu = adafruit_mpu6050.MPU6050(i2c)
+
+
+while True:
+    print(mpu.acceleration)   # print x y and z values
+    time.sleep(.5)
+
+    if mpu.acceleration[0] < -9 or mpu.acceleration[0] > 9: # if x value less then -9 ot greater than 9
+        led.value = True  # at these values, 90 degrees, led turns on.
+    else:
+        led.value = False  #if its not then the led is off
+  ``` 
 
 ### Reflection
 
