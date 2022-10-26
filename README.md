@@ -37,7 +37,7 @@ print("Takeoff!")   # print this at 0
 
 The most challenging part of this assingment for me was figuring out the for loop. At first I only had (10, 0) This countdown from 0-10. To do the oppisite and to complete the assingment I had to use "for (0, 10, -1) The -1 clarifies direction which allows the count DOWN.
 
-## Countdown Part 2
+## Countdown_2
 
 ### Assingment description
 
@@ -78,7 +78,7 @@ while True:
 
 At first I had both legs of the led wired in the same row, which clearly wont work. I then put one leg in the coloumn with ground, and the other with a resitor, with the resistro connected to the desired pin with another wire. The other part was getting the time.sleep corrrect, instead of on time.sleep(1), I have 2 time.sleep(0.5) which works better. 
 
-## Countdown Part 3
+## Countdown_3
 
 ### Assingment description
 
@@ -122,7 +122,7 @@ while True:
 
 This assingment retaught me how to use a button. The previous LEDs were an output, whereas the button is an input. At first The button didnt work because I made the mistake of switcthing them, but then it worked. button.value == False instead of true to be pressed and initalize code with digitalio.Pull.UP
 
-##  Countdown part 4
+##  Countdown_4
 
 ### Assingment description
 
@@ -172,7 +172,7 @@ The code to initialize the servo was given and pretty simple. One part was setti
 
 
 
-## Crash Avoidance 1
+## Crash_Avoidance_1
 
 ### Assingment description
 
@@ -211,7 +211,7 @@ while True:
 
 The code for this assingment is simple, but the wiring could be tricky. At first I switched SDA and SCL pin, and my code didnt work, then I switched them and it did. Other than the imports and the varaible stuff the only code you need is print(mpu.acceleration).
 
-## Crash Avoidance 2
+## Crash_Avoidance_2
 
 ### Assingment description
 
@@ -257,7 +257,7 @@ while True:
 
 At first the mobile power source I was using didnt seem to work. This was because I had written my code in a file Crash2.py. and I hadn't uplaoaded it to code.oy file. Once I did this the mobile power source worked. Other than that the only change in code was having led turn on when the accerleramoter was turned 90 degrees which can be done if mpu.acceleration[0] < -9 or mpu.acceleration[0] > 9. If x value was less than -9 or greater than 9 it was at 90 degrees.
 
-## Landing area 1 
+## Landing_area_1 
 
 ### Assingment description
 
@@ -317,7 +317,7 @@ while True:
 The hardest part of this assingment for me was converting the int to float. To use in equation variable x1,y1 etc have to be integers but for most else they have to be float. To convert to float its as simple as float(x1), to convert back to int in equation int()
 
 
-## Landing area 2
+## Landing_area_2
 
 ### Assingment description
 
@@ -394,7 +394,7 @@ while True:
 To print the triangles for this assingment you couldnt just input 'triangle = Triangle(int(x1), int(y1), int(x2), int(y2), int(x3), int(y3))'
 as this would print the trirangle on the wrong part of the graph. Since the OLED is 128 by 64, to get the tirangle to plot with respect to the origin (64,32) you have to add 64 to each x value (int(x1) + 64) and subtract each y value from 32 (32 - int(y1).
 
-## Morse code 1
+## Morse_code_1
 
 ### Assingment description
 
@@ -447,7 +447,7 @@ The main part of this assingment that I had never seen was the dictionary. The d
 At first I didn't know how to have "/" return from a space input. To fix this I added it to the dictionary which turned the letter into morse code originally. ' (''/',)  To do this it was as simple as saying what the input would be " " and saying what I wanted the output to be '/'.
 
 
-## Morse code 2
+## Morse_code_2
 
 ### Assingment description
 
