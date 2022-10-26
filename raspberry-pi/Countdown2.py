@@ -2,9 +2,9 @@ import time
 import board
 import digitalio 
 
-GreenLed = digitalio.DigitalInOut(board.GP13)
+GreenLed = digitalio.DigitalInOut(board.GP19)
 GreenLed.direction = digitalio.Direction.OUTPUT 
-RedLed = digitalio.DigitalInOut(board.GP18) 
+RedLed = digitalio.DigitalInOut(board.GP20) 
 RedLed.direction = digitalio.Direction.OUTPUT 
 
 for x in range (10,0,-1):  
