@@ -6,8 +6,8 @@ import digitalio
 
 led = digitalio.DigitalInOut(board.GP1) 
 led.direction = digitalio.Direction.OUTPUT
-sda_pin = board.GP16  # Accelermatoer 
-scl_pin = board.GP17
+sda_pin = board.GP19 # Accelermatoer 
+scl_pin = board.GP20
 i2c = busio.I2C(scl_pin, sda_pin)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 
