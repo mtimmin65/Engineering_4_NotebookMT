@@ -3,7 +3,6 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 * [Countdown 1](#Countdown_1)
 * [Countdown 2](#Countdown_2)
