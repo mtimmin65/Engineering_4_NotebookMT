@@ -4,9 +4,9 @@ import digitalio
 import pwmio 
 from adafruit_motor import servo
 
-led1 = digitalio.DigitalInOut(board.GP13)
+led1 = digitalio.DigitalInOut(board.GP19)
 led1.direction = digitalio.Direction.OUTPUT
-led2 = digitalio.DigitalInOut(board.GP18)
+led2 = digitalio.DigitalInOut(board.GP20)
 led2.direction = digitalio.Direction.OUTPUT
 button = digitalio.DigitalInOut(board.GP16)  
 button.direction = digitalio.Direction.INPUT
