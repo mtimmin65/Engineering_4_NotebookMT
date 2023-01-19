@@ -568,8 +568,8 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test Image
 
- ![Picture Name Here](images/download.jpg)  
+ ![Picture Name Here](images/mariokissing.jpg)  
 
 ### Test GIF
 
-  ![Blinking](images/giphy.gif)  
+  ![Blinking](images/facegif.gif)  
