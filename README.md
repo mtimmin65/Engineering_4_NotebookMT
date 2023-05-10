@@ -412,7 +412,7 @@ Script asks for input from user, user gives letter or number input, script retur
 ### Wiring
 
 No wiring
-
+ 
 ### Code
   
 ``` python
